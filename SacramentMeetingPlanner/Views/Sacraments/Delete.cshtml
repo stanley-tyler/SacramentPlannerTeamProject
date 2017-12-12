@@ -1,0 +1,75 @@
+﻿@model SacramentMeetingPlanner.Models.Sacrament
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Sacrament</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.openSong)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.openSong)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.closeSong)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.closeSong)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.conductor)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.conductor)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.openPrayer)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.openPrayer)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.closePrayer)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.closePrayer)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.openSpeaker)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.openSpeaker)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.midSpeaker)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.midSpeaker)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.closeSpeaker)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.closeSpeaker)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.date)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.date)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="ID" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

@@ -1,0 +1,11 @@
+C:\Users\mrtyl\source\repos\SacramentMeetingPlanner\SacramentMeetingPlanner\bin\Debug\netcoreapp2.0\SacramentMeetingPlanner.deps.json
+C:\Users\mrtyl\source\repos\SacramentMeetingPlanner\SacramentMeetingPlanner\bin\Debug\netcoreapp2.0\SacramentMeetingPlanner.runtimeconfig.json
+C:\Users\mrtyl\source\repos\SacramentMeetingPlanner\SacramentMeetingPlanner\bin\Debug\netcoreapp2.0\SacramentMeetingPlanner.runtimeconfig.dev.json
+C:\Users\mrtyl\source\repos\SacramentMeetingPlanner\SacramentMeetingPlanner\bin\Debug\netcoreapp2.0\SacramentMeetingPlanner.dll
+C:\Users\mrtyl\source\repos\SacramentMeetingPlanner\SacramentMeetingPlanner\bin\Debug\netcoreapp2.0\SacramentMeetingPlanner.pdb
+C:\Users\mrtyl\source\repos\SacramentMeetingPlanner\SacramentMeetingPlanner\obj\Debug\netcoreapp2.0\SacramentMeetingPlanner.csprojResolveAssemblyReference.cache
+C:\Users\mrtyl\source\repos\SacramentMeetingPlanner\SacramentMeetingPlanner\obj\Debug\netcoreapp2.0\SacramentMeetingPlanner.csproj.CoreCompileInputs.cache
+C:\Users\mrtyl\source\repos\SacramentMeetingPlanner\SacramentMeetingPlanner\obj\Debug\netcoreapp2.0\SacramentMeetingPlanner.AssemblyInfoInputs.cache
+C:\Users\mrtyl\source\repos\SacramentMeetingPlanner\SacramentMeetingPlanner\obj\Debug\netcoreapp2.0\SacramentMeetingPlanner.AssemblyInfo.cs
+C:\Users\mrtyl\source\repos\SacramentMeetingPlanner\SacramentMeetingPlanner\obj\Debug\netcoreapp2.0\SacramentMeetingPlanner.dll
+C:\Users\mrtyl\source\repos\SacramentMeetingPlanner\SacramentMeetingPlanner\obj\Debug\netcoreapp2.0\SacramentMeetingPlanner.pdb

@@ -1,0 +1,73 @@
+﻿@model SacramentMeetingPlanner.Models.Sacrament
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Create</h2>
+
+<h4>Sacrament</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="openSong" class="control-label"></label>
+                <input asp-for="openSong" class="form-control" />
+                <span asp-validation-for="openSong" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="closeSong" class="control-label"></label>
+                <input asp-for="closeSong" class="form-control" />
+                <span asp-validation-for="closeSong" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="conductor" class="control-label"></label>
+                <input asp-for="conductor" class="form-control" />
+                <span asp-validation-for="conductor" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="openPrayer" class="control-label"></label>
+                <input asp-for="openPrayer" class="form-control" />
+                <span asp-validation-for="openPrayer" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="closePrayer" class="control-label"></label>
+                <input asp-for="closePrayer" class="form-control" />
+                <span asp-validation-for="closePrayer" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="openSpeaker" class="control-label"></label>
+                <input asp-for="openSpeaker" class="form-control" />
+                <span asp-validation-for="openSpeaker" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="midSpeaker" class="control-label"></label>
+                <input asp-for="midSpeaker" class="form-control" />
+                <span asp-validation-for="midSpeaker" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="closeSpeaker" class="control-label"></label>
+                <input asp-for="closeSpeaker" class="form-control" />
+                <span asp-validation-for="closeSpeaker" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="date" class="control-label"></label>
+                <input asp-for="date" class="form-control" />
+                <span asp-validation-for="date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
